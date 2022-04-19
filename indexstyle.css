@@ -57,7 +57,7 @@ div{
     margin-top: 100px;
     margin-left: -150px;
 
-    animation: fadeIn ease 15s;
+    animation: fadeIn linear 15s;
   }
   @keyframes fadeIn {
     0% {
