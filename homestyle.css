@@ -2,6 +2,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     color: white;
+    margin-top: 45px;
 }
 div{
     height: 100vw;
@@ -29,6 +30,46 @@ div{
     top: 50%;
     left: 50%;
     right: 50%;
-    margin-top: -40px;
+    margin-top: -250px;
     margin-left: -175px;
+}
+ul {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0d323f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+li{
+    float: left;
+}
+li a{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+    background-color: #09222b;
+}
+.active{
+    background-color: #254d5c;
+}
+.contact{
+    font-family: 'Times New Roman', Times, serif;
+    height: 150px;
+    width: 350px;
+    background: transparent;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    margin-top: -150px;
+    margin-left: -30px;
 }
