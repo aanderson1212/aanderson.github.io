@@ -1,6 +1,5 @@
 .HomeTitle{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
     color: white;
     margin-top: 45px;
 }
@@ -12,6 +11,7 @@ div{
     position: fixed;
     top: 50%;
     left: 50%;
+    right: 50%;
     margin-top: -100px;
     margin-left: -200px;
 }
@@ -83,75 +83,6 @@ li a:hover{
     top: 50%;
     left: 50%;
     right: 50%;
-    margin-top: -3%;
-    margin-left: -2.2%;
-}
-@media (min-width: 414px){
-    .phone{
-
-    grid-template-columns: 1fr 1fr 1fr;
-    font-family: 'Times New Roman', Times, serif;
-    height: 150px;
-    width: 350px;
-    background: transparent;
-
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    right: 50%;
-    margin: auto;
-    margin-top: -3%;
-    margin-left: -7%;
-    }
-}
-@media (min-width: 1349px){
-    .phone{
-        grid-template-columns: 1fr 1fr 1fr;
-    font-family: 'Times New Roman', Times, serif;
-    height: 150px;
-    width: 350px;
-    background: transparent;
-
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    right: 50%;
-    margin: auto;
-    margin-top: -3%;
-    margin-left: -2.3%;
-    }
-}
-@media (min-width: 1024px){
-    .phone{
-        grid-template-columns: 1fr 1fr 1fr;
-    font-family: 'Times New Roman', Times, serif;
-    height: 150px;
-    width: 350px;
-    background: transparent;
-
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    right: 50%;
-    margin: auto;
-    margin-top: -3%;
-    margin-left: -3.3%;
-    }
-}
-@media (min-width: 1440px){
-    .phone{
-        grid-template-columns: 1fr 1fr 1fr;
-    font-family: 'Times New Roman', Times, serif;
-    height: 150px;
-    width: 350px;
-    background: transparent;
-
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    right: 50%;
-    margin: auto;
-    margin-top: -3%;
-    margin-left: -2.1%;
-    }
+    margin-top: -25px;
+    margin-left: -175px;
 }
