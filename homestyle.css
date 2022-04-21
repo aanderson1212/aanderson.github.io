@@ -87,3 +87,16 @@ li a:hover{
     margin-top: -25px;
     margin-left: -175px;
 }
+.twitter{
+    font-family: 'Times New Roman', Times, serif;
+    height: 150px;
+    width: 350px;
+    background: transparent;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    margin-top: 115px;
+    margin-left: -175px;
+}
