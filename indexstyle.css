@@ -55,7 +55,7 @@ div{
     left: 50%;
     right: 50%;
     margin-top: 100px;
-    margin-left: -150px;
+    margin-left: -60px;
 
     animation: fadeIn linear 15s;
   }
