@@ -7,11 +7,11 @@ let pageArray = [
     },
     {
         name:"About",
-        url:"/S2NE.html"
+        url:"#"
     },
     {
         name:"Cat Generator",
-        url:"/S1NE.html"
+        url:"https://aanderson1212.github.io/catgenonline/"
     }
 ];
 
