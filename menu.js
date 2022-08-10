@@ -40,8 +40,6 @@ function buildMenuBar()
         let button = document.createElement("button");
         button.classList.add("menuBarButton");
         button.innerHTML = element.name;
-        //let url = document.currentScript.src;
-        //console.log(url);
         
         let url = window.location.pathname.lastIndexOf('/');
         url = window.location.pathname.substring(0,url);
