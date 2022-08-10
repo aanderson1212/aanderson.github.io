@@ -9,7 +9,7 @@ ul {
     overflow: auto;
   }
   
-  li a {
+ul li a {
     display: block;
     color: black;
     background-color: white;
@@ -17,11 +17,11 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover {
+ul li a:hover {
     background-color: #555;
     color: white;
   }
-  .active {
+.active {
     background-color: white;
     color: black;
   }
