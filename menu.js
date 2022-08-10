@@ -7,7 +7,7 @@ let pageArray = [
     },
     {
         name:"About",
-        url:"about.html"
+        url:"/about.html"
     },
     {
         name:"Cat Generator",
