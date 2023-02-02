@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'retro';
+    src: url("../fonts/Retro\ Gaming.ttf") format('truetype');
+}
+
+.test{
+    font-family: 'retro';
+    color: #EFA3C8;
+    font-size: 160%;
+}
+
+#box{
+    width:200px;
+    height:100px;
+    background:rgba(0, 0, 255, 0);
+    
+}
