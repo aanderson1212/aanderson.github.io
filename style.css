@@ -3,15 +3,37 @@
     src: url("../fonts/Retro\ Gaming.ttf") format('truetype');
 }
 
-.test{
+.box{
     font-family: 'retro';
-    color: #EFA3C8;
-    font-size: 160%;
+    color: #EFA3C8;    
 }
 
 #box{
     width:200px;
     height:100px;
     background:rgba(0, 0, 255, 0);
-    
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.box :first-child{
+    align-self: center;
+}
+.profile{
+    border-radius: 50%;
+    width: 95px;
+    height: 90px;
+    vertical-align: middle;
+}
+.introtext{
+    margin-top: -60px;
+    margin-left: 120px;
+    font-size: 90%;
+}
+body{
+    background-color: rgb(62, 35, 65);
+}
+.starttext{
+    margin-top: 10px;
+    margin-left: 120px;
+    font-size: 85%;
 }
