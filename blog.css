@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'retro';
+    src: url("../fonts/Retro\ Gaming.ttf") format('truetype');
+}
+body{
+    background-color: rgb(62, 35, 65);
+    display: table-cell;
+    vertical-align: middle;
+}
+.home{
+    text-align: center;
+}
+a:link{
+    color: #EFA3C8;
+}
+a{
+    margin-right: 50px;
+}
+a:visited{
+    color: #EFA3C8;
+}
+a:hover{
+    color: #EFA3C8;
+    font-style: italic;
+}
+.pages{
+    text-align: center;
+    font-family: retro;
+    
+}
+.posts{
+    text-align: center;
+    padding-top: 2em;
+    text-align: left;
+    font-family: retro;
+}
+.footer{
+    text-align: center;
+    margin-top: 780px;
+    font-family: retro;
+    color: #EFA3C8;
+}
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
