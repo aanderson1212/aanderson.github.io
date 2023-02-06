@@ -5,7 +5,9 @@
 
 .box{
     font-family: 'retro';
-    color: #EFA3C8;    
+    color: #EFA3C8;
+    max-width: 960px;
+    margin: auto; 
 }
 
 #box{
@@ -19,9 +21,9 @@
     align-self: center;
 }
 .profile{
-    border-radius: 50%;
+    border-radius: 10%;
     width: 95px;
-    height: 90px;
+    height: 100px;
     vertical-align: middle;
 }
 .introtext{
@@ -31,9 +33,47 @@
 }
 body{
     background-color: rgb(62, 35, 65);
+    display: table-cell;
+    vertical-align: middle;
 }
 .starttext{
     margin-top: 10px;
     margin-left: 120px;
     font-size: 85%;
+}
+.home{
+    margin-left: 750px;
+}
+a:link{
+    color: #EFA3C8;
+}
+a:visited{
+    color: #EFA3C8;
+}
+a:hover{
+    color: #EFA3C8;
+    font-style: italic;
+}
+.blog{
+    margin-left: 50px;
+}
+.pages{
+    color: #EFA3C8;
+    font-family: retro;
+    margin-left: -550px;
+}
+.footer{
+    text-align: center;
+}
+.gif1{
+    margin-top: 30px;
+    margin-left: -400px;
+}
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
 }
