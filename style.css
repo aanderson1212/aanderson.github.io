@@ -6,10 +6,9 @@
 .box{
     font-family: 'retro';
     color: #EFA3C8;
-    max-width: 960px;
+    
     margin: auto; 
 }
-
 #box{
     width:200px;
     height:100px;
@@ -17,9 +16,7 @@
     align-items: flex-start;
     justify-content: space-between;
 }
-.box :first-child{
-    align-self: center;
-}
+
 .profile{
     border-radius: 10%;
     width: 95px;
@@ -42,7 +39,7 @@ body{
     font-size: 85%;
 }
 .home{
-    margin-left: 750px;
+   text-align: center;
 }
 a:link{
     color: #EFA3C8;
@@ -57,17 +54,13 @@ a:hover{
 .blog{
     margin-left: 50px;
 }
-.pages{
+.nav{
     color: #EFA3C8;
     font-family: retro;
-    margin-left: -550px;
+    text-align: center;
 }
 .footer{
     text-align: center;
-}
-.gif1{
-    margin-top: 30px;
-    margin-left: -400px;
 }
 html, body {
     height: 100%;
