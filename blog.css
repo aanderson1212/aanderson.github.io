@@ -23,10 +23,9 @@ a:hover{
     color: #EFA3C8;
     font-style: italic;
 }
-.pages{
+.nav{
     text-align: center;
-    font-family: retro;
-    
+    font-family: retro; 
 }
 .posts{
     text-align: center;
